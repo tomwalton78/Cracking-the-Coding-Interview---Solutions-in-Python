@@ -23,13 +23,10 @@ def is_unique(input_string):
     # Iterate through string to check each char to see if it has been found
     # before in string
     for char in input_string:
-        try:
-            # Attempt to access key in hash table, to check if it has already
-            # been found
-            chars_found[char]
+        if char in chars_found:
+            # this char lookup is O(1)
             return False
-
-        except KeyError:
+        else:
             # Store char as found
             chars_found[char] = True
 
