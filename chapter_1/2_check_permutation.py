@@ -20,7 +20,7 @@ def value_counts(input_string):
         if char in val_counts:
             val_counts[char] += 1
         else:
-            val_counts[char] = 0
+            val_counts[char] = 1
 
     return val_counts
 
