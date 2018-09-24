@@ -36,7 +36,7 @@ class Test(unittest.TestCase):
     def test_delete_middle_node(self):
         for test_input, test_output in self.data:
 
-            # Fin node to delete, to input into function
+            # Find node to delete, to input into function
             node_to_delete = test_input[0].head
             for i in range(test_input[1]):
                 node_to_delete = node_to_delete.next_node
