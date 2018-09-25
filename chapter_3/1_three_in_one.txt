@@ -1,0 +1,5 @@
+Solution involves using either a fixed amount of space for each stack, or implementing 
+flexible divisions in the array, which expand as stack expands.
+
+Neither solution implemented since not felt to be a good use of time. Can't see how 
+resulting data structure is useful, compared to implementing individual stacks.
