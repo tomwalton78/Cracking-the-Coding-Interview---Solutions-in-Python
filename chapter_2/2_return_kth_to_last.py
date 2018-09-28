@@ -149,7 +149,7 @@ class Test(unittest.TestCase):
         with self.assertRaises(AttributeError):
             return_kth_to_last(LinkedList(input_arr=[1, 2, 3, 4, 5]), 10)
 
-    def test_return_kth_to_last(self):
+    def test_return_kth_to_last_v2(self):
         # Test data inputs and outputs
         for test_input, test_output in self.data:
             self.assertEqual(
@@ -164,7 +164,7 @@ class Test(unittest.TestCase):
 
         # Test k that is too large
         with self.assertRaises(Exception):
-            return_kth_to_last(LinkedList(input_arr=[1, 2, 3, 4, 5]), 10)
+            return_kth_to_last_v2(LinkedList(input_arr=[1, 2, 3, 4, 5]), 10)
 
 
 if __name__ == '__main__':
