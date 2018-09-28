@@ -70,8 +70,6 @@ class Test(unittest.TestCase):
     # Define test case inputs, and expected outputs
 
     def test_is_route_between_nodes(self):
-        """Test operations of SetOfStacks class
-        """
 
         # Initialise graph
         g = Graph()
